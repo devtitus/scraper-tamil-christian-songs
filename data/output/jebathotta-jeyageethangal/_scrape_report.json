@@ -5,23 +5,23 @@
     "display_title": "Jebathotta Jeyageethangal Songs Lyrics",
     "url": "https://tamilchristiansongs.in/album/jebathotta-jeyageethangal/",
     "declared_total": 364,
-    "total_pages": 1,
+    "total_pages": 8,
     "songs_per_page": 50
   },
-  "generated_at": "2026-11-16T20:03:34+00:00",
+  "generated_at": "2026-11-17T17:06:08+00:00",
   "counts": {
-    "songs_found": 1,
-    "songs_written": 1,
+    "songs_found": 364,
+    "songs_written": 364,
     "songs_missing": 0,
     "songs_failed": 0,
-    "alignment_warnings": 0,
-    "http_requests": 0,
-    "duration_seconds": 0.6
+    "alignment_warnings": 8,
+    "http_requests": 347,
+    "duration_seconds": 3753.54
   },
   "cache": {
     "enabled": true,
-    "hits": 1,
-    "misses": 0
+    "hits": 8,
+    "misses": 345
   },
   "output_files": {
     "tamil": "D:\\projects\\lyrics-scraper\\data\\output\\jebathotta-jeyageethangal\\tamil.json",
@@ -43,6 +43,15 @@
     "full_text_prefix": "Hymn No. {n}"
   },
   "missing_slugs": [],
-  "alignment_warning_slugs": [],
+  "alignment_warning_slugs": [
+    "aandavar-padaithea-veattrien-naalithu",
+    "aathumave-nandri-sollu",
+    "amarnthiruppaen-aruginile",
+    "ippothum-eppothum",
+    "maravaamal-ninaitheeraiya",
+    "maravaamal-ninaitheeraiya-2",
+    "paraloga-devane",
+    "ratha-kottai-kulle"
+  ],
   "failures": []
 }
