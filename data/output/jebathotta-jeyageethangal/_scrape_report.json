@@ -1,0 +1,48 @@
+{
+  "album": {
+    "slug": "jebathotta-jeyageethangal",
+    "name": "Jebathotta Jeyageethangal",
+    "display_title": "Jebathotta Jeyageethangal Songs Lyrics",
+    "url": "https://tamilchristiansongs.in/album/jebathotta-jeyageethangal/",
+    "declared_total": 364,
+    "total_pages": 1,
+    "songs_per_page": 50
+  },
+  "generated_at": "2026-11-16T20:03:34+00:00",
+  "counts": {
+    "songs_found": 1,
+    "songs_written": 1,
+    "songs_missing": 0,
+    "songs_failed": 0,
+    "alignment_warnings": 0,
+    "http_requests": 0,
+    "duration_seconds": 0.6
+  },
+  "cache": {
+    "enabled": true,
+    "hits": 1,
+    "misses": 0
+  },
+  "output_files": {
+    "tamil": "D:\\projects\\lyrics-scraper\\data\\output\\jebathotta-jeyageethangal\\tamil.json",
+    "tanglish": "D:\\projects\\lyrics-scraper\\data\\output\\jebathotta-jeyageethangal\\tanglish.json"
+  },
+  "schema_options": {
+    "include_identity": false,
+    "chorus_repeat_heuristic": false,
+    "chorus_explicit_markers": [
+      "chorus",
+      "refrain",
+      "கோரஸ்",
+      "தொடர்பல்லவி"
+    ],
+    "bridge_markers": [
+      "bridge",
+      "பாலம்"
+    ],
+    "full_text_prefix": "Hymn No. {n}"
+  },
+  "missing_slugs": [],
+  "alignment_warning_slugs": [],
+  "failures": []
+}

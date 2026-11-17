@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Scraped artefacts (regenerable; delete to force a fresh crawl)
+data/cache/
+data/state/
+logs/
+
+# NOTE: data/output/ is intentionally NOT ignored - it holds the JSON deliverables.

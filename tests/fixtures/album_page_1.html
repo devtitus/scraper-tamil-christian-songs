@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head><meta charset="utf-8"><title>Test Album Lyrics - Tamil Christian Songs .IN</title></head>
+<body>
+<header class="site-header"><a href="/">Home</a><a href="/lyrics/">Lyrics</a></header>
+<main id="main-content" class="flex-1">
+  <div class="app-layout py-8 grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-8">
+    <div class="min-w-0">
+      <nav aria-label="Breadcrumb">
+        <ol class="flex items-center gap-1.5 flex-wrap">
+          <li class="flex items-center gap-1.5"><a href="/">Home</a></li>
+          <li class="flex items-center gap-1.5"><span aria-hidden="true">/</span><a href="/album/">Album</a></li>
+          <li class="flex items-center gap-1.5"><span aria-hidden="true">/</span><span aria-current="page">Test Album</span></li>
+        </ol>
+      </nav>
+      <header class="mb-8">
+        <p class="text-sm text-[var(--muted-foreground)] uppercase tracking-wider mb-1">Album</p>
+        <h1 class="text-3xl font-light tracking-tight">Test Album Songs Lyrics</h1>
+        <p class="text-[var(--muted-foreground)] mt-2">Browse all 101 Tamil Christian song lyrics from the album Test Album.</p>
+      </header>
+      <div class="grid gap-4 sm:grid-cols-2">
+        <article class="card group">
+          <a href="/lyrics/song-one/" class="block">
+            <h2 class="text-lg font-medium group-hover:text-[var(--primary)]">Song One</h2>
+            <p class="text-sm text-[var(--muted-foreground)] mt-1">பாடல் ஒன்று</p>
+          </a>
+        </article>
+        <article class="card group">
+          <a href="/lyrics/song-two/" class="block">
+            <h2 class="text-lg font-medium group-hover:text-[var(--primary)]">Song Two</h2>
+            <p class="text-sm text-[var(--muted-foreground)] mt-1">பாடல் இரண்டு</p>
+          </a>
+        </article>
+        <article class="card group">
+          <a href="/lyrics/song-three/" class="block">
+            <h2 class="text-lg font-medium group-hover:text-[var(--primary)]">Song Three</h2>
+            <p class="text-sm text-[var(--muted-foreground)] mt-1">பாடல் மூன்று</p>
+          </a>
+        </article>
+      </div>
+      <nav class="flex items-center justify-center gap-2 mt-12" aria-label="Pagination">
+        <a href="/album/test-album/" class="w-9 h-9 bg-[var(--primary)]" aria-current="page">
+          1
+        </a><a href="/album/test-album/?page=2" class="w-9 h-9 border">
+          2
+        </a><a href="/album/test-album/?page=3" class="w-9 h-9 border">
+          3
+        </a>
+        <a href="/album/test-album/?page=2" class="px-3 py-2 rounded border">
+          Next &rarr;
+        </a>
+      </nav>
+    </div>
+    <aside class="widget-area min-w-0 hidden md:block" aria-label="Sidebar">
+      <a href="/lyrics/">All Lyrics</a>
+      <a href="/artist/someone/">Someone</a>
+      <article class="card group"><a href="/hashtag/xyz/">decoy without h2</a></article>
+    </aside>
+  </div>
+</main>
+</body>
+</html>

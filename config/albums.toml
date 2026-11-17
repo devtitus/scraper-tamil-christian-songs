@@ -1,0 +1,28 @@
+# ============================================================================
+# Albums to scrape. Add as many [[albums]] blocks as you like.
+#
+#   slug      REQUIRED - the path segment in https://tamilchristiansongs.in/album/<slug>/
+#   enabled   optional - default true. Set false to keep an album configured but skipped.
+#   max_pages optional - cap the crawl. Omit (or use 0) to auto-detect from the
+#                        site's pagination nav.
+#   name      optional - override the album display name shown in the report.
+#
+# Flip `enabled` or pass `--album <slug>` on the CLI to scrape a different album.
+# ============================================================================
+
+[[albums]]
+slug    = "jebathotta-jeyageethangal"
+enabled = true
+
+# ---------------------------------------------------------------------------
+# Examples of other albums on the same site (kept disabled):
+#
+# [[albums]]
+# slug    = "christmas"
+# enabled = false
+#
+# [[albums]]
+# slug      = "new-year-songs"
+# enabled   = false
+# max_pages = 2          # only crawl the first 2 pages
+# ---------------------------------------------------------------------------

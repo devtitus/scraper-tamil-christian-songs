@@ -1,0 +1,77 @@
+[
+  {
+    "parts": [
+      {
+        "title": "Part I",
+        "stanzas": [
+          {
+            "lines": [
+              "aapaththu Naalil Karththar",
+              "en Jepam Kaetkinteer",
+              "Yaakkopin Thaevanin",
+              "Naamam Paathukaakkintathu"
+            ],
+            "number": 1
+          },
+          {
+            "lines": [
+              "en Thunnaiyaalar Neerthaanae",
+              "Sakaayar Neerthaanae",
+              "Neerthaanae En Thunnaiyaalar",
+              "Neerthaanae En Sakaayar"
+            ],
+            "number": 2
+          },
+          {
+            "lines": [
+              "enathu Jepangalellaam",
+              "Maravaamal Ninaikkinteer",
+              "Enathu Thuthipaliyai",
+              "Nukarnthu Makilkinteer"
+            ],
+            "number": 3
+          },
+          {
+            "lines": [
+              "ithaya Viruppamellaam",
+              "Thakappan Tharukinteer - En",
+              "Aekkam Ellaamae - En",
+              "Eppatiyum Niraivaettuveer"
+            ],
+            "number": 4
+          },
+          {
+            "lines": [
+              "varappokum Elupputhal Kanndu",
+              "Makilchchiyil Aarpparippom",
+              "Iratchakar Naamaththilae(Yesu)",
+              "Kotiyaettik Konndaaduvom"
+            ],
+            "number": 5
+          },
+          {
+            "lines": [
+              "thiramaiyai Nampum Manithar",
+              "Thadumaari Vilunthaarkal",
+              "Thaevanai Nampum Naamo",
+              "Thalai Nimirnthu Nirkintom"
+            ],
+            "number": 6
+          }
+        ],
+        "part_number": 1
+      }
+    ],
+    "bridge": null,
+    "chorus": null,
+    "metadata": {
+      "has_bridge": false,
+      "has_chorus": false,
+      "part_count": 1,
+      "hymn_number": 1,
+      "verse_count": 6,
+      "stanza_format": "plain"
+    },
+    "full_text": "Hymn No. 1 1. aapaththu Naalil Karththar en Jepam Kaetkinteer Yaakkopin Thaevanin Naamam Paathukaakkintathu 2. en Thunnaiyaalar Neerthaanae Sakaayar Neerthaanae Neerthaanae En Thunnaiyaalar Neerthaanae En Sakaayar 3. enathu Jepangalellaam Maravaamal Ninaikkinteer Enathu Thuthipaliyai Nukarnthu Makilkinteer 4. ithaya Viruppamellaam Thakappan Tharukinteer - En Aekkam Ellaamae - En Eppatiyum Niraivaettuveer 5. varappokum Elupputhal Kanndu Makilchchiyil Aarpparippom Iratchakar Naamaththilae(Yesu) Kotiyaettik Konndaaduvom 6. thiramaiyai Nampum Manithar Thadumaari Vilunthaarkal Thaevanai Nampum Naamo Thalai Nimirnthu Nirkintom"
+  }
+]

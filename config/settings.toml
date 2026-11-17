@@ -1,0 +1,67 @@
+# ============================================================================
+# Global scraper settings. Every value here can be overridden on the CLI.
+# ============================================================================
+
+[site]
+base_url    = "https://tamilchristiansongs.in"
+album_path  = "/album/{slug}/"
+lyrics_path = "/lyrics/{slug}/"
+
+[scraping]
+# robots.txt for this site declares "Crawl-delay: 10" for User-agent: *.
+# Lowering this is discouraged: the album crawl is ~372 requests (~62 min).
+delay_seconds        = 10.0
+delay_jitter_seconds = 1.5
+timeout_seconds      = 30
+max_retries          = 4
+backoff_factor       = 2.0
+# Honour the crawl-delay published in robots.txt.
+respect_robots_crawl_delay = true
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+[parsing]
+# auto -> use lxml when importable, else fall back to the stdlib html.parser
+parser = "auto"
+
+# ----------------------------------------------------------------------------
+# Rules that turn the flat scraped stanzas into the parts/chorus/metadata schema.
+# Changing anything in this section can be re-applied to cached HTML with:
+#     python -m lyrics_scraper transform --album <slug>
+# ...which needs no network access and completes in seconds.
+# ----------------------------------------------------------------------------
+[schema]
+# A stanza whose first line starts with one of these becomes `chorus`.
+chorus_explicit_markers = ["chorus", "refrain", "கோரஸ்", "தொடர்பல்லவி"]
+# A stanza whose first line starts with one of these becomes `bridge`.
+bridge_markers          = ["bridge", "பாலம்"]
+# Promote a stanza that repeats 2+ times into `chorus`. Kept OFF by default so
+# `chorus` is only ever populated by an explicit marker in the source.
+chorus_repeat_heuristic = false
+# Value used for metadata.stanza_format
+stanza_format_numbered  = "numbered"
+stanza_format_plain     = "plain"
+# full_text is rebuilt as: "<prefix> 1. <lines> Chorus : <lines> 2. <lines> ..."
+full_text_prefix        = "Hymn No. {n}"
+full_text_chorus_label  = "Chorus :"
+# When true, title/slug/url are added inside metadata. OFF keeps the strict schema.
+include_identity        = false
+
+[output]
+root         = "data/output"
+tamil_file   = "tamil.json"
+tanglish_file = "tanglish.json"
+report_file  = "_scrape_report.json"
+ensure_ascii = false
+indent       = 2
+
+[cache]
+enabled = true
+root    = "data/cache"
+
+[resume]
+enabled   = true
+state_dir = "data/state"
+
+[logging]
+level = "INFO"
+file  = "logs/scraper.log"
